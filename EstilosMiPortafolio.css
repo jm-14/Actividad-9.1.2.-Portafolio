@@ -1,0 +1,79 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    text-align:center;
+ 
+        color: #333;
+}
+
+
+p {
+    color: #555;
+}
+
+#primero{
+    background: #e6d0f3;
+    border: 1px solid #7818e6;
+    padding: .1em;
+}
+
+.aquemededico {
+        background-color: rgb(153, 241, 222);
+}
+
+.especial{
+    background-color: rgb(220, 201, 236);
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+    #primero img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    #primero img {
+        width: 50%;
+    }
+}
+
+@media (min-width: 901px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+}
